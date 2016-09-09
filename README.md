@@ -1,2 +1,2 @@
 # docker-osync
-<>new</p>
+<p>new</p>
