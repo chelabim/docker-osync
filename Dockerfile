@@ -18,7 +18,4 @@ RUN ./install.sh --silent
 # Create volume data for osync initiator
 VOLUME /data
 
-COPY sync.conf /etc/osync/sync.conf 
-
-
 CMD /etc/init.d/osync-srv start && tail -f /dev/null 
